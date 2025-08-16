@@ -6,14 +6,16 @@ import Players from './players/Players'
 import Subscription from './subscription/Subscription'
 function App() {
   return (
-    <div className='max-w-7xl px-6 mx-auto mt-5'>
-    <Header></Header>
-    <Hero></Hero>
-    <Players></Players>
     <div>
+      <div className='max-w-7xl px-6 mx-auto mt-5'>
+        <Header></Header>
+        <Hero></Hero>
+        <Players></Players>
+      </div>
       <Subscription></Subscription>
-      <Footer></Footer>
-    </div>
+      <div>
+        <Footer></Footer>
+      </div>
     </div>
   )
 }
