@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Virat_Kohli_portrait.jpg/960px-Virat_Kohli_portrait.jpg?20180427075657",
+    "country": "India",
+    "role": "Batsman",
+    "batting_hand": "Right-hand",
+    "specialty": "Right-arm offbreak",
+    "price_per_game": 50000
+  },
+  {
+    "id": 2,
+    "name": "Shane Warne",
+    "picture": "https://media.cnn.com/api/v1/images/stellar/prod/220304091853-shane-warne-restricted.jpg",
+    "country": "Australia",
+    "role": "Bowler",
+    "bowling_hand": "Right-hand",
+    "specialty": "Leg Spin",
+    "price_per_game": 60000
+  },
+  {
+    "id": 3,
+    "name": "MS Dhoni",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/401100/401143.jpg",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "batting_hand": "Right-hand",
+    "specialty": "None",
+    "price_per_game": 70000
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/404300/404397.jpg",
+    "country": "England",
+    "role": "All-rounder",
+    "batting_hand": "Left-hand",
+    "bowling_hand": "Right-hand",
+    "specialty": "Medium-fast bowling",
+    "price_per_game": 80000
+  },
+  {
+    "id": 5,
+    "name": "Jasprit Bumrah",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/404200/404274.jpg",
+    "country": "India",
+    "role": "Bowler",
+    "bowling_hand": "Right-hand",
+    "specialty": "Yorkers",
+    "price_per_game": 90000
+  },
+  {
+    "id": 6,
+    "name": "Kane Williamson",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/404400/404431.jpg",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "batting_hand": "Right-hand",
+    "specialty": "None",
+    "price_per_game": 45000
+  },
+  {
+    "id": 7,
+    "name": "AB de Villiers",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/375600/375672.jpg",
+    "country": "South Africa",
+    "role": "Batsman",
+    "batting_hand": "Right-hand",
+    "specialty": "360° shots",
+    "price_per_game": 75000
+  },
+  {
+    "id": 8,
+    "name": "Chris Gayle",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/382400/382460.jpg",
+    "country": "West Indies",
+    "role": "Batsman",
+    "batting_hand": "Left-hand",
+    "specialty": "Big hitting",
+    "price_per_game": 65000
+  },
+  {
+    "id": 9,
+    "name": "Muttiah Muralitharan",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/165200/165249.jpg",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "bowling_hand": "Right-hand",
+    "specialty": "Off-spin",
+    "price_per_game": 70000
+  },
+  {
+    "id": 10,
+    "name": "Ricky Ponting",
+    "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/401600/401627.jpg",
+    "country": "Australia",
+    "role": "Batsman",
+    "batting_hand": "Right-hand",
+    "specialty": "Pull shot",
+    "price_per_game": 72000
+  }
+]

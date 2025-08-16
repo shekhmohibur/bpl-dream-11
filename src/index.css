@@ -5,3 +5,76 @@
 body{
     font-family: "Sora", sans-serif;
 }
+.hero-css{
+    top:35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+@media screen and (max-width:1075px) {
+    .hero-css{
+        top: 30%;
+    }
+    .hero-css h1{
+        font-size: 30px;
+    }
+    .hero-css p{
+        font-size: 18px;
+    }
+    .hero-css img{
+        width: 120px;
+    }
+}
+@media screen and (min-width:650px) and (max-width:950px) {
+    .hero-css{
+        top: 25%;
+        gap: 7px;
+    }
+    .hero-css h1{
+        font-size: 20px;
+    }
+    .hero-css p{
+        font-size: 16px;
+    }
+    .hero-css img{
+        width: 100px;
+    }
+    .hero-css button{
+        font-size: 13px;
+    }
+}
+@media screen and (min-width:350px) and (max-width:650px) {
+    .hero-css{
+        top: 20%;
+        gap: 2px;
+    }
+    .hero-css h1{
+        font-size: 12px;
+    }
+    .hero-css p{
+        font-size: 8px;
+    }
+    .hero-css img{
+        width: 50px;
+    }
+    .hero-css button{
+        font-size: 10px;
+        padding: 7px;
+    }
+}
+@media (max-width: 767px){
+    #toggleMenu{
+        position: absolute;
+        margin-top: 140px;
+        z-index: 1;
+        background: rgba(189, 189, 189, 0.411);
+        backdrop-filter: blur(15px);
+        color: white;
+        padding: 10px;
+    }
+}
+.selected{
+    background: rgb(217 249 157 / var(--tw-bg-opacity, 1));
+    font-weight: bold;
+    transition: 0.3s;
+}
