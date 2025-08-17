@@ -5,11 +5,8 @@ const Hero = ({handleCoins}) => {
         handleCoins();
     }
     return (
-        <div className='bg-black rounded-xl overflow-hidden mt-5 relative'>
+        <div className='bg-black rounded-xl sm:overflow-hidden mt-5 relative'>
             <img src={bannerShadow} alt="bannerShadow" />
-            <div className='relative'>
-                <img className='w-40 absolute small-banner' src={bannerMain} alt="bannerMain" />
-            </div>
             <div className='items-center flex flex-col gap-5 absolute bottom-28 left-40 hero-css'>
                 <img className='w-40 small-hidden' src={bannerMain} alt="bannerMain" />
                 <h1 className='text-white font-bold md:text-4xl'>Assemble Your Ultimate Dream 11 Cricket Team</h1>

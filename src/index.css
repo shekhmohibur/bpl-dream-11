@@ -43,7 +43,7 @@ body{
         font-size: 13px;
     }
 }
-@media screen and (min-width:350px) and (max-width:650px) {
+@media screen and (min-width:300px) and (max-width:650px) {
     .hero-css{
         top: 20%;
         gap: 2px;

@@ -1,6 +1,6 @@
 import { MdOutlineDeleteForever } from "react-icons/md";
-const SelectedPlayer = ({ player }) => {
-    const { picture, name, role } = player;
+const SelectedPlayer = ({ player, removePlayer }) => {
+    const { picture, name, role, id } = player;
     return (
         <div>
             <div className="flex justify-between items-center bg-gray-100 px-4 py-3 rounded-lg">
@@ -12,7 +12,7 @@ const SelectedPlayer = ({ player }) => {
                     </div>
 
                 </div>
-                <button><MdOutlineDeleteForever className="text-red-500 text-xl" /></button>
+                <button onClick={() => removePlayer(id)}><MdOutlineDeleteForever className="text-red-500 text-xl" /></button>
             </div>
         </div>
     );

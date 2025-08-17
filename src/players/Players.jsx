@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Player from "../player/Player";
 import Selected from "../selected/Selected";
-const Players = ({getCoins, selectedPlayers, selectPlayers}) => {
+const Players = ({getCoins, selectedPlayers, selectPlayers, removePlayer}) => {
     const [activeTab, setActiveTab] = useState('available');
     const [totalPlayers, setTotalPlayers] = useState([]);
     useEffect(() => {
@@ -34,6 +34,8 @@ const Players = ({getCoins, selectedPlayers, selectPlayers}) => {
         <div className={`${activeTab === 'available' ? 'hidden' : ''}`}>
             <Selected
         selectPlayers={selectPlayers}
+        removePlayer={removePlayer}
+        togglerBtn={togglerBtn}
         ></Selected>
         </div>
         

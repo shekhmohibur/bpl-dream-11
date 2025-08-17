@@ -3,7 +3,7 @@ const Footer = () => {
     return (
         <div className="bg-black md:pt-72">
             <img className="mx-auto" src={footerLogo} alt="Footer Logo" />
-            <div className='px-24 mx-auto grid lg:grid-cols-3 gap-10 pb-10'>
+            <div className='px-4 sm:px-24 mx-auto grid lg:grid-cols-3 gap-10 pb-10'>
                 <div>
                     <h3 className='text-white'>About Us</h3>
                     <p className='text-gray-400'>We are a passionate team dedicated to providing the best services to our customers.</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                     <h3 className='text-white'>Subscribe</h3>
                     <p className='text-gray-400'>Subscribe to our newsletter for the latest updates.</p>
                     <div className='flex'>
-                        <input className='border-2 py-1 outline-none px-1 rounded-l-lg' type="email" placeholder='Enter Your Email' />
+                        <input className='border-2 py-1 w-40 sm:w-1/2 outline-none px-1 rounded-l-lg' type="email" placeholder='Enter Your Email' />
                         <button className='font-semibold px-3 py-4 rounded-r-lg inset-shadow-sm inset-shadow-slate-600 bg-gradient-to-br from-purple-200 to-orange-500'>Subscribe</button>
                     </div>
                 </div>

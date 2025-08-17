@@ -5,7 +5,6 @@ import Header from './header/Header'
 import Hero from './hero/Hero'
 import Players from './players/Players'
 import Subscription from './subscription/Subscription'
-import Selected from './selected/Selected'
 import { ToastContainer, toast } from 'react-toastify'
 function App() {
   const [coins, setCoins] = useState(0);
@@ -14,7 +13,6 @@ function App() {
   const getCoins = useCallback((coin) => {
     setPlayersPrice(prev => prev + coin)
   }, [])
-  console.log(coins)
   const handleCoins = () => {
     if (coins === 0) {
       setCoins(playersPrice + coins)
@@ -92,7 +90,20 @@ function App() {
       });
     }
   }
-
+  const removePlayer = id => {
+    const newRemovePlayer = selectPlayers.filter(player => player.id !== id)
+    const playerName = selectPlayers.filter(player => player.id === id)
+    setSelectPlayers(newRemovePlayer)
+    toast.warn(`Removed ${playerName[0].name}`, {
+        position: "top-center",
+        autoClose: 3000, // closes after 3 seconds
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: false,
+        theme: "colored", // "light", "dark", "colored"
+      });
+  }
   return (
     <div>
       <ToastContainer />
@@ -109,9 +120,9 @@ function App() {
             getCoins={getCoins}
             selectedPlayers={selectedPlayers}
             selectPlayers={selectPlayers}
+            removePlayer={removePlayer}
           ></Players>
         </div>
-
       </div>
       <Subscription></Subscription>
       <div>
