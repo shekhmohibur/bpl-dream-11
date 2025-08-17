@@ -1,7 +1,15 @@
-const Selected = () => {
+import SelectedPlayer from "../selectedPlayer/SelectedPlayer";
+
+const Selected = ({selectPlayers}) => {
+    console.log(selectPlayers)
     return (
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 justify-center">
-            <h1>hi</h1>
+        <div className="flex flex-col gap-3">
+                {
+                    selectPlayers.map(player => <SelectedPlayer 
+                        key={player.id}
+                        player={player}
+                        ></SelectedPlayer>)
+                }
         </div>
     );
 };
