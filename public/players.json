@@ -6,6 +6,7 @@
     "country": "India",
     "role": "Batsman",
     "batting_hand": "Right-hand",
+    "bowling_hand": "",
     "specialty": "Right-arm offbreak",
     "price_per_game": 50000
   },
@@ -15,6 +16,7 @@
     "picture": "https://media.cnn.com/api/v1/images/stellar/prod/220304091853-shane-warne-restricted.jpg",
     "country": "Australia",
     "role": "Bowler",
+    "batting_hand": "",
     "bowling_hand": "Right-hand",
     "specialty": "Leg Spin",
     "price_per_game": 60000
@@ -26,6 +28,7 @@
     "country": "India",
     "role": "Wicketkeeper",
     "batting_hand": "Right-hand",
+    "bowling_hand": "",
     "specialty": "None",
     "price_per_game": 70000
   },
@@ -46,6 +49,7 @@
     "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/404200/404274.jpg",
     "country": "India",
     "role": "Bowler",
+    "batting_hand": "",
     "bowling_hand": "Right-hand",
     "specialty": "Yorkers",
     "price_per_game": 90000
@@ -57,6 +61,7 @@
     "country": "New Zealand",
     "role": "Batsman",
     "batting_hand": "Right-hand",
+    "bowling_hand": "",
     "specialty": "None",
     "price_per_game": 45000
   },
@@ -67,6 +72,7 @@
     "country": "South Africa",
     "role": "Batsman",
     "batting_hand": "Right-hand",
+    "bowling_hand": "",
     "specialty": "360° shots",
     "price_per_game": 75000
   },
@@ -77,6 +83,7 @@
     "country": "West Indies",
     "role": "Batsman",
     "batting_hand": "Left-hand",
+    "bowling_hand": "",
     "specialty": "Big hitting",
     "price_per_game": 65000
   },
@@ -86,6 +93,7 @@
     "picture": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1280,q_80/lsci/db/PICTURES/CMS/165200/165249.jpg",
     "country": "Sri Lanka",
     "role": "Bowler",
+    "batting_hand": "",
     "bowling_hand": "Right-hand",
     "specialty": "Off-spin",
     "price_per_game": 70000
@@ -97,6 +105,7 @@
     "country": "Australia",
     "role": "Batsman",
     "batting_hand": "Right-hand",
+    "bowling_hand": "",
     "specialty": "Pull shot",
     "price_per_game": 72000
   }

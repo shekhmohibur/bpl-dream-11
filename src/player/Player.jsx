@@ -1,7 +1,11 @@
 import { IoIosContact } from "react-icons/io";
 import { FaFlag } from "react-icons/fa";
-const Player = ({ player }) => {
+import { useEffect } from "react";
+const Player = ({ player, getCoins }) => {
     const { name, picture, country, role, specialty, price_per_game,bowling_hand, batting_hand } = player;
+        useEffect(() => {
+            getCoins(price_per_game);
+        }, [getCoins, price_per_game])
     return (
         <div>
             <div className="p-5 border rounded-lg">
@@ -21,7 +25,7 @@ const Player = ({ player }) => {
                 <span className="font-semibold block mb-4">Rating</span>
                 <div className="flex justify-between items-center">
                     <p>{specialty}</p>
-                    <p>{batting_hand}</p>
+                    <p>{batting_hand || bowling_hand}</p>
                 </div>
                 <div className="flex justify-between mt-3 items-center">
                     <span>Price: ${price_per_game}</span>
